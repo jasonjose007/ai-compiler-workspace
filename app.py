@@ -124,11 +124,11 @@ class AICompiler:
 # ==========================================
 # 4. STREAMLIT RUNTIME INTERFACE LAYOUT
 # ==========================================
-st.set_page_config(page_title="AI Compiler Workspace", page_icon="🤖", layout="wide")
-st.title("🤖 AI Software Compiler Workspace Runtime")
+st.set_page_config(page_title="PromptToStack", page_icon="🤖", layout="wide")
+st.title("PromptToStack — Prompt to Full-Stack Blueprint")
 
 with st.sidebar:
-    st.header("Compiler Inputs")
+    st.header("PromptToStack Inputs")
     raw_input = st.text_area(
         "Enter Specifications:",
         value="Build a CRM with login, contacts, dashboard, role-based access, and premium plan with payments. Admins can see analytics.",
